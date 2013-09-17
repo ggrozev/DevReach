@@ -1,0 +1,277 @@
+/* Font Icons */
+.km-clock:after,.km-clock:before{content:"\E08D"}
+.km-grid:after,.km-grid:before{content:"\E0AB"}
+.km-info:after,.km-info:before{content:"\E0F9";}
+.km-comment:after,.km-comment:before{content:"\E091";}
+.km-certificate:after,.km-comment:before{content:"\E08C";}
+.km-place:after,.km-place:before{content:"\E0B4"}
+.km-calendar:after,.km-calendar:before{content:"\E089"}
+
+
+
+/* Global */
+.wrapper
+{
+    background: #e6e7e8 no-repeat 50% 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Menu List */
+.km-root .menu-list .km-listview li
+{
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 0;
+    border: 0 none;
+    border-bottom: 1px solid #fff;
+    background-color: #0b9446;
+}
+
+.menu-list li,
+.km-root .menu-list li .km-icon,
+.menu-list .km-listview-link:after
+{
+    color: #fff;
+}
+
+.km-root .menu-list li .km-icon
+{
+    vertical-align: -0.2em;
+    font-size: 1.4em;
+    width: 1.2em
+}
+
+.km-root .menu-list .km-listview li a
+{
+    font-size: 0.7em;
+    font-weight: normal;
+    padding: 0.5em 1em 0;
+    margin: 0;
+}
+
+.menu-list li.km-state-active .km-listview-link
+{
+    background: rgba(0,0,0,0.3);
+    border-radius: 0 !important;
+}
+
+.menu-list .km-listview li
+{
+    height: 2em;
+}
+
+
+
+/* Default Kendo styles Resets*/
+div.km-content.km-insetcontent
+{
+    background: none;
+}
+
+.km-header .km-view-title
+{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/* Title Bar */
+.km-header .km-navbar
+{
+    background: #414042;
+    height: 28px;
+    font-size: 12px;
+}
+
+.km-header .km-view-title
+{
+    font-size: 1em;
+}
+
+.km-info
+{    
+     
+}
+
+.km-root .km-back
+{
+    padding-left: 1em;
+    -webkit-mask-image: none;    
+}
+
+.km-root .km-back:after
+{
+    background: none;
+}
+
+/* End Title Bar */
+
+
+.km-header *:not(.km-tabstrip):not(.km-buttongroup) .km-button
+{
+    background: none;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+/* Main Menu */
+.km-root .km-tabstrip .km-icon
+{
+    color: #fff;
+    font-size: 2.5em;
+    padding: 7px 0 3px 10px;
+    height: 25px;
+}
+
+.km-root .km-tabstrip .km-state-active .km-icon,
+.km-root .km-tabstrip .km-button:active,
+.km-root .km-tabstrip .km-state-active
+{
+    color: #fff300;
+}
+
+
+/* Welcome Screen */
+
+#home
+{
+    background-image: url(images/home-bgr.png);
+}
+
+
+#home-content li
+{
+    background-color: #2bb673;
+ }
+
+#home-content li[data-icon="grid"]
+{
+    background-color: #0b9446;
+}
+
+#home-content li[data-icon="contacts"]
+{
+    background-color: #27aae1;
+}
+
+#home-content li[data-icon="comment"]
+{
+    background-color: #ab218e;
+}
+
+#home-content li[data-icon="certificate"]
+{
+    background-color: #ee4036;
+}
+#logo
+{
+    background: #fff300 url(images/dr-logo.png) no-repeat 50% 14px;
+    height: 63px;
+    margin-top: 53px
+}
+
+/* My Agenda View */
+
+#myAgendaSessionView li
+{
+    font-size: 0.9em;
+    padding: 1.5em 1em 0.5em;
+    background-color: transparent;
+    color: #000;
+}
+
+#myAgendaSessionView h3
+{
+    font-size: 1em;
+    color: #2bb673;
+    margin: 0 0 0.5em;
+}
+
+#myAgendaSessionView p
+{
+    margin: 0;
+    line-height: 0.95em;
+}
+
+#myAgendaSessionView span
+{
+    font-size: 0.8em;    
+}
+
+#myAgendaSessionView .item-date
+{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+#myAgendaSessionView .km-state-active .km-listview-link
+{
+    background: #fff300;
+    color: #000;
+}
+
+/* Sessions View */
+
+#sessionDetails .km-content
+{
+    padding: 1em 1em;
+}
+
+#sessionDetails h2 
+{
+    font-size: 1.2em;
+    margin: 0 0 0.5em 0.2em;
+}
+
+.dr-box
+{
+    font-size: 0.9em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 0 0 1.2em;
+    border: 1px solid #cdcdcd;
+    background: #fcfcfc;
+    color: #2bb673;
+    padding: 1.1em 1em;
+}
+
+.dr-box p
+{
+    margin: 0 0 1em;
+ }
+
+.dr-box-listview
+{
+    padding: 0;
+}
+
+.dr-box-listview .km-list>li
+{
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.dr-speaker-box
+{
+    overflow: hidden;
+}
+
+.dr-speaker-box img
+{
+    float: left;
+    margin-right: 1em;
+}
+
+.dr-speaker-box span
+{
+    display: block;
+    font-size: 1.35em;
+}
+
